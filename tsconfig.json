@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "baseUrl": "./",
+        "paths": {
+            "@firestore/user/actions": ["src/services/firebase/collections/user/actions"]
+        }
+    }
+}

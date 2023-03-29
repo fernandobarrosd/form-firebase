@@ -1,0 +1,17 @@
+{
+  "name": "form-firebase",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@firebase/firestore": "^3.9.0",
+    "firebase": "^9.18.0",
+    "vite-tsconfig-paths": "^4.0.7"
+  },
+  "devDependencies": {
+    "vite": "^4.2.1"
+  }
+}
