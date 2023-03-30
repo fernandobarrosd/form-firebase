@@ -6,17 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Fernando de Barros">
     <title>Form Firebase - Sign Up</title>
+    <link rel="stylesheet" href="../../src/css/index.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <h1>Form Firebase</h1>
-            <img src="../../src/assets/firebase-logo.png">
+            <h2>Form Firebase</h2>
+            <img src="../../src/assets/logos/firebase-logo.png">
         </div>
-        <nav>
+        <nav class="nav">
             <ul class="menu-links">
                 <li class="menu-link">
-                    <a href=".">Sign Up</a>
+                    <a href="./">Sign Up</a>
                 </li>
                 <li class="menu-link">
                     <a href="../login/">Login</a>
@@ -24,22 +25,50 @@
             </ul>
             <ul class="social-networks">
                 <li class="social-network">
-                    <a href="#">Twitter</a>
+                    <a href="https://github.com/fernandobarrosd/" 
+                    target="_blank">
+                        <img src="../../src/assets/icons/github-icon.svg" 
+                        alt="Github Logo">
+                    </a>
                 </li>
                 <li class="social-network">
-                    <a href="#">Linkedin</a>
+                    <a href="" 
+                    target="_blank">
+                        <img src="../../src/assets/icons/linkedin-icon.svg" 
+                        alt="Linkedin Logo">
+                    </a>
                 </li>
                 <li class="social-network">
-                    <a href="#">Github</a>
+                    <a href="" 
+                    target="_blank">
+                        <img src="../../src/assets/icons/twitter-icon.svg" 
+                        alt="Twitter Logo">
+                    </a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
         <section class="form-section">
-           
-        </section>
-    </main>
-    <script src="./script.ts"></script>
+            <h1>Sign Up here</h1>
+            <form action="" id="form-login">
+                <fieldset>
+                    <div class="form-input">
+                        <label for="username">Username</label>
+                        <input type="text" id="username">
+                    </div>
+                    <div class="form-input">
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="form-input">
+                        <label for="password">Password</label>
+                        <input type="password" id="password">
+                    </div>
+                </fieldset>
+                <button type="submit">Sign Up</button>
+            </form>
+        </section>  
+    </main> 
 </body>
 </html>
