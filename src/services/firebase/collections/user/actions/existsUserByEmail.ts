@@ -1,7 +1,7 @@
 import { query, where, getDocs } from "firebase/firestore";
 import { userCollection } from "../userCollection";
 
-export const existUserByemail = async (email: string) => {
+export const existUserByEmail = async (email: string) => {
     const userQuery = query(userCollection, where("email", "==", email));
     const user = await getDocs(userQuery);
 

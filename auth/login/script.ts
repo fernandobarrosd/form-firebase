@@ -1,15 +1,17 @@
-import { getInputValues } from "src/utils/getInputValues";
+import { getInputValues } from "../../src/utils/getInputValues";
 import { existUserByemail } from "@firestore/user/actions";
+import { hash } from "bcrypt-ts";
 
 const formLogin = document.querySelector("form") as HTMLFormElement;
 
 
-const onSubmit = (e: SubmitEvent) => {
+const onSubmit = async (e: SubmitEvent) => {
     e.preventDefault();
-    const inputs = getInputValues(formLogin);
-    console.log(inputs);
-
+    const [ email, password ] = getInputValues(formLogin);
+   
+    
+    
 
 }
 
-formLogin.addEventListener("submit", onSubmit);
+formLogin.addEventListener("submit", e => onSubmit(e));

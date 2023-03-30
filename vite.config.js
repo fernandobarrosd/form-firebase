@@ -8,7 +8,8 @@ export default defineConfig({
     },
    resolve: {
     alias: {
-        "@firestore/user/actions": path.resolve("./src/services/firebase/collections/user/actions")
+        "@firestore/user/actions": path.resolve("./src/services/firebase/collections/user/actions"),
+        crypto: "./node_modules/bcrypt/bcrypt.js"
     }
    }
 });
