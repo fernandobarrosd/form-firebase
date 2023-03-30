@@ -1,0 +1,12 @@
+:root {
+    --text-color: #FFFF;
+    --primary-color: #0D1B2A;
+    --second-color: #415A77;
+    --terciary-color: #E0E1DD;
+    --quartiary-color: #1B263B;
+    --font-size: 1rem;
+    --max-width: 120rem;
+    --min-width: 30rem;
+    --border-radius: 8px;
+    --circle: 50%;   
+}
