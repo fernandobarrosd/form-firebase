@@ -7,7 +7,6 @@ export default defineConfig({
 
     },
    resolve: {
-    extensions: ["json"],
     alias: {
         "@firestore/user/actions": path.resolve("./src/services/firebase/collections/user/actions")
     }
